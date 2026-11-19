@@ -1,17 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EmoAura</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>EmoAura | Your Emotional Space</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <h2>How are you feeling today?</h2>
-    <button> Happy </button>
-    <button> Sad </button>
-    <button> Angry </button>
-    <button> Anxious </button>
-    
-    
+    <main class="mood-container">
+        <section class="mood-card">
+
+            <div class="brand">
+                <span class="brand-icon">✦</span>
+                EMOAURA
+            </div>
+
+            <div class="welcome">
+                <span class="eyebrow">
+                    YOUR PERSONAL SANCTUARY
+                </span>
+
+                <h1>
+                    How are you<br>
+                    <span class="gradient-text">
+                        feeling today?
+                    </span>
+                </h1>
+
+                <p class="subtitle">
+                    Take a moment to check in with yourself.
+                </p>
+            </div>
+
+            <div class="form-group">
+                <label for="emotion">
+                    YOUR CURRENT MOOD
+                </label>
+
+                <div class="select-wrapper">
+                    <select id="emotion"
+                            class="emotion-select">
+
+                        <option value="" selected disabled>
+                            ✨ Select your emotion
+                        </option>
+
+                        <option value="happy">😊 Happy</option>
+                        <option value="sad">😢 Sad</option>
+                        <option value="angry">😠 Angry</option>
+                        <option value="anxious">😰 Anxious</option>
+                        <option value="calm">😌 Calm</option>
+                        <option value="excited">🤩 Excited</option>
+                        <option value="tired">😴 Tired</option>
+                        <option value="lonely">🥺 Lonely</option>
+                        <option value="confused">😕 Confused</option>
+                    </select>
+
+                    <span class="select-arrow">⌄</span>
+                </div>
+            </div>
+
+            <button id="continueBtn"
+                    class="continue-btn"
+                    type="button"
+                    disabled>
+                Continue
+                <span>→</span>
+            </button>
+
+            <p id="message"
+               class="message"
+               role="status"
+               aria-live="polite"></p>
+
+            <div class="card-footer">
+                <span>✧</span>
+                Your feelings matter. Every single one.
+                <span>✧</span>
+            </div>
+
+        </section>
+    </main>
 </body>
 </html>

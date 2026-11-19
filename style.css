@@ -1,0 +1,368 @@
+
+/* ===== Global ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #ffffff;
+    background: #101a37;
+    isolation: isolate;
+    overflow-x: hidden;
+}
+
+/* ===== Animated Background ===== */
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: -5%;
+    z-index: -2;
+
+    background-image: url("image/background.jpg");
+    background-size: cover;
+    background-position: center;
+
+    animation: desktopZoom 18s ease-in-out
+               infinite alternate;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background: linear-gradient(
+        90deg,
+        rgba(8, 13, 35, 0.65) 0%,
+        rgba(12, 20, 45, 0.30) 42%,
+        rgba(10, 16, 38, 0.02) 75%
+    );
+}
+
+@keyframes desktopZoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.08);
+    }
+}
+
+/* ===== Desktop Layout ===== */
+
+.mood-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 50px 8%;
+}
+
+/* ===== Glass Card ===== */
+
+.mood-card {
+    width: 480px;
+    max-width: 100%;
+    padding: 48px 44px 36px;
+
+    background: linear-gradient(
+        145deg,
+        rgba(26, 36, 74, 0.55),
+        rgba(18, 25, 58, 0.35)
+    );
+
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+
+    border: 1px solid rgba(224, 218, 255, 0.28);
+    border-radius: 30px;
+
+    box-shadow:
+        0 24px 75px rgba(4, 9, 30, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.20);
+
+    animation: cardAppear 1s ease-out both;
+
+    transition: border-color 0.4s,
+                box-shadow 0.4s;
+}
+
+.mood-card:hover {
+    border-color: rgba(221, 205, 255, 0.50);
+
+    box-shadow:
+        0 25px 85px rgba(4, 9, 30, 0.40),
+        0 0 35px rgba(173, 157, 255, 0.12);
+}
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== Branding ===== */
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: #e1d6ff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.brand-icon {
+    font-size: 24px;
+    color: #d8c5ff;
+}
+
+/* ===== Welcome Section ===== */
+
+.welcome {
+    margin-top: 45px;
+}
+
+.eyebrow {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #b7b9db;
+}
+
+h1 {
+    font-size: clamp(30px, 3vw, 42px);
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+    font-weight: 600;
+
+    margin: 18px 0 18px;
+}
+
+.gradient-text {
+    background: linear-gradient(
+        100deg,
+        #f0dcff,
+        #b5d6ff
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.subtitle {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #d1d5e9;
+    margin-bottom: 38px;
+}
+
+/* ===== Emotion Selection ===== */
+
+.form-group label {
+    display: block;
+    margin-bottom: 12px;
+
+    color: #d9d6f4;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.emotion-select {
+    appearance: none;
+    -webkit-appearance: none;
+
+    width: 100%;
+    padding: 19px 48px 19px 20px;
+
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(221, 217, 255, 0.35);
+    border-radius: 16px;
+
+    color: #f6f3ff;
+    font-size: 15px;
+    font-family: inherit;
+
+    cursor: pointer;
+    outline: none;
+
+    transition: 0.3s ease;
+}
+
+.emotion-select:hover {
+    background: rgba(255, 255, 255, 0.16);
+    border-color: #c8baff;
+}
+
+.emotion-select:focus-visible {
+    border-color: #e3d6ff;
+
+    box-shadow:
+        0 0 0 3px rgba(190, 172, 255, 0.20);
+}
+
+.emotion-select option {
+    background: #263354;
+    color: #ffffff;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    color: #ddd2ff;
+    font-size: 24px;
+    pointer-events: none;
+}
+
+/* ===== Continue Button ===== */
+
+.continue-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    width: 100%;
+    margin-top: 22px;
+    padding: 18px 22px;
+
+    border: none;
+    border-radius: 16px;
+
+    background: linear-gradient(
+        110deg,
+        #e3cfff,
+        #b8d7ff
+    );
+
+    color: #26304f;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: inherit;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 25px rgba(172, 174, 255, 0.20);
+
+    transition: 0.3s ease;
+}
+
+.continue-btn:not(:disabled):hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 12px 32px rgba(190, 179, 255, 0.40);
+}
+
+.continue-btn:not(:disabled):active {
+    transform: translateY(0);
+}
+
+.continue-btn:focus-visible {
+    outline: 3px solid #ffffff;
+    outline-offset: 4px;
+}
+
+.continue-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.continue-btn span {
+    font-size: 20px;
+}
+
+/* ===== Feedback Message ===== */
+
+.message {
+    margin: 16px 0 0;
+    color: #e6ddff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.message:empty {
+    display: none;
+}
+
+/* ===== Footer ===== */
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin-top: 38px;
+    padding-top: 24px;
+
+    border-top: 1px solid rgba(255,255,255,0.15);
+
+    color: #c7c8e2;
+    font-size: 11px;
+    text-align: center;
+}
+
+.card-footer span {
+    color: #d5c3ff;
+}
+
+/* ===== Smaller Screens ===== */
+
+@media (max-width: 700px) {
+    .mood-container {
+        justify-content: center;
+        padding: 30px 20px;
+    }
+
+    .mood-card {
+        padding: 36px 26px;
+    }
+
+    body::before {
+        background-position: 60% center;
+    }
+}
+
+/* ===== Reduced Motion ===== */
+
+@media (prefers-reduced-motion: reduce) {
+    body::before,
+    .mood-card {
+        animation: none;
+    }
+
+    .mood-card,
+    .emotion-select,
+    .continue-btn {
+        transition: none;
+    }
+}

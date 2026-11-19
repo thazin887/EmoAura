@@ -1,0 +1,157 @@
+<mxfile host="65bd71144e">
+    <diagram id="6BFi8431s6cDLZ08j0Ng" name="ページ-1">
+        <mxGraphModel dx="2183" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="自分の感情を理解し、コントロールできるようにサポートするアプリ" vertex="1">
+                    <mxGeometry height="40" width="250" x="40" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#66FFB3;" value="自己理解を深めたい人" vertex="1">
+                    <mxGeometry height="30" width="70" x="40" y="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="感じたことを日記で書く" vertex="1">
+                    <mxGeometry height="50" width="100" x="25" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="誰かと話す" vertex="1">
+                    <mxGeometry height="50" width="100" x="620" y="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="過去の日記を見返す" vertex="1">
+                    <mxGeometry height="50" width="110" x="790" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="感情を振り返る" vertex="1">
+                    <mxGeometry height="50" width="100" x="790" y="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="記録を日付けと共に保存する" vertex="1">
+                    <mxGeometry height="50" width="100" x="130" y="278" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="アプリ画面で感情の種類を選ぶ" vertex="1">
+                    <mxGeometry height="50" width="100" x="10" y="365" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="記録する" vertex="1">
+                    <mxGeometry height="50" width="100" x="25" y="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="感情の変化を見比べる" vertex="1">
+                    <mxGeometry height="50" width="100" x="920" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-19" edge="1" parent="1" style="shape=link;html=1;" value="">
+                    <mxGeometry relative="1" width="100" as="geometry">
+                        <mxPoint y="260" as="sourcePoint"/>
+                        <mxPoint x="1270" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-20" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="ウオーキングスケルトン" vertex="1">
+                    <mxGeometry height="50" width="110" x="-110" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="sjlsyMyv7hCY5KlJi9rU-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="感情を記録する" vertex="1">
+                    <mxGeometry height="50" width="100" x="20" y="278" as="geometry"/>
+                </mxCell>
+                <mxCell id="C8iHhm4t8tOsX7CuKy1H-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="気持ちをを整える" vertex="1">
+                    <mxGeometry height="50" width="110" x="364" y="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="C8iHhm4t8tOsX7CuKy1H-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="起こった理由を記入する" vertex="1">
+                    <mxGeometry height="50" width="100" x="120" y="365" as="geometry"/>
+                </mxCell>
+                <mxCell id="C8iHhm4t8tOsX7CuKy1H-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="感情に応じたアドバイスを見る" vertex="1">
+                    <mxGeometry height="50" width="100" x="474" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="C8iHhm4t8tOsX7CuKy1H-8" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="タスクリスト" vertex="1">
+                    <mxGeometry height="50" width="110" x="-110" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="C8iHhm4t8tOsX7CuKy1H-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="セルフケアコンテンツを表示する" vertex="1">
+                    <mxGeometry height="50" width="100" x="364" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="TvFY61hYBLX94zUtitjq-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="感情記録を保存する" vertex="1">
+                    <mxGeometry height="50" width="100" x="230" y="364" as="geometry"/>
+                </mxCell>
+                <mxCell id="TvFY61hYBLX94zUtitjq-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="日付けごとに記録を確認できるようにする" vertex="1">
+                    <mxGeometry height="50" width="100" x="785" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="TvFY61hYBLX94zUtitjq-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="時間を設定し、翌日に感情の状態を聞く通知が来る" vertex="1">
+                    <mxGeometry height="50" width="100" x="10" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="TvFY61hYBLX94zUtitjq-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="パスワードを入力して記録を見る" vertex="1">
+                    <mxGeometry height="50" width="100" x="1060" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="TvFY61hYBLX94zUtitjq-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="日記の履歴を管理する" vertex="1">
+                    <mxGeometry height="50" width="90" x="1065" y="135" as="geometry"/>
+                </mxCell>
+                <mxCell id="TvFY61hYBLX94zUtitjq-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="日記を自分だけ見られるにする" vertex="1">
+                    <mxGeometry height="50" width="90" x="1065" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="TvFY61hYBLX94zUtitjq-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="不要な記録を取り消しする" vertex="1">
+                    <mxGeometry height="50" width="100" x="1175" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="カウンセラーリストを表示する" vertex="1">
+                    <mxGeometry height="50" width="100" x="620" y="278" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="感情を共有する" vertex="1">
+                    <mxGeometry height="50" width="100" x="620" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-8" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="通知機能" vertex="1">
+                    <mxGeometry height="50" width="110" x="-110" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="感情の変化をグラフで確認する" vertex="1">
+                    <mxGeometry height="50" width="100" x="890" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="パスワードが一致したとき記録を表示する" vertex="1">
+                    <mxGeometry height="50" width="100" x="1060" y="278" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="好きなセルフケアコンテンツを見る" vertex="1">
+                    <mxGeometry height="50" width="100" x="364" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="週間の感情レポートを見る" vertex="1">
+                    <mxGeometry height="50" width="100" x="780" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="日付で履歴を検索する" vertex="1">
+                    <mxGeometry height="50" width="70" x="1065" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="メッセージをやり取れるチャットを入れる" vertex="1">
+                    <mxGeometry height="50" width="100" x="620" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="言語を切り替える" vertex="1">
+                    <mxGeometry height="50" width="100" x="125" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="nOVPR99vPOszGFMgDHsq-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="言語設定する" vertex="1">
+                    <mxGeometry height="50" width="100" x="10" y="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="SZD1Gx2xsUNWGp_OjGYe-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="日記を取消す" vertex="1">
+                    <mxGeometry height="50" width="90" x="1165" y="195" as="geometry"/>
+                </mxCell>
+                <mxCell id="SZD1Gx2xsUNWGp_OjGYe-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="カウンセラーのプロファ－ルを見る" vertex="1">
+                    <mxGeometry height="50" width="100" x="620" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="SZD1Gx2xsUNWGp_OjGYe-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#b0e3e6;strokeColor=#0e8088;" value="保存した記録を一覧で確認する" vertex="1">
+                    <mxGeometry height="50" width="100" x="785" y="278" as="geometry"/>
+                </mxCell>
+                <mxCell id="SZD1Gx2xsUNWGp_OjGYe-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="コンテンツを選択できるようにする" vertex="1">
+                    <mxGeometry height="50" width="100" x="360" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="SZD1Gx2xsUNWGp_OjGYe-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="感情に合うコンテンツをおすすめする" vertex="1">
+                    <mxGeometry height="50" width="100" x="369" y="535" as="geometry"/>
+                </mxCell>
+                <mxCell id="SZD1Gx2xsUNWGp_OjGYe-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="通知から感情記録画面を開く" vertex="1">
+                    <mxGeometry height="50" width="100" x="125" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="3eoztw7ZLLlP7QlbtzgA-4" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint y="517" as="sourcePoint"/>
+                        <mxPoint x="1280" y="517" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3eoztw7ZLLlP7QlbtzgA-5" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint y="440" as="sourcePoint"/>
+                        <mxPoint x="1280" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3eoztw7ZLLlP7QlbtzgA-6" edge="1" parent="1" style="endArrow=none;html=1;" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint y="345" as="sourcePoint"/>
+                        <mxPoint x="1280" y="345" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
