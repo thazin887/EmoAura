@@ -18,7 +18,7 @@
 
             <div class="brand">
                 <span class="brand-icon">✦</span>
-                EMOAURA
+                EmoAura
             </div>
 
             <div class="welcome">
@@ -28,7 +28,7 @@
 
                 <h1>
                     How are you<br>
-                    <span class="gradient-text">
+                    <span class="text-color">
                         feeling today?
                     </span>
                 </h1>
@@ -42,28 +42,44 @@
                 <label for="emotion">
                     YOUR CURRENT MOOD
                 </label>
+<div class="select-wrapper">
+    <select id="emotion" name="emotion">
 
-                <div class="select-wrapper">
-                    <select id="emotion"
-                            class="emotion-select">
+        <option value="">✨ Select your emotion</option>
 
-                        <option value="" selected disabled>
-                            ✨ Select your emotion
-                        </option>
+        <optgroup label="Positive Emotions">
+            <option value="happy">😊 Happy</option>
+            <option value="excited">🤩 Excited</option>
+            <option value="loved">😍 Loved</option>
+            <option value="grateful">🙏 Grateful</option>
+            <option value="relieved">😌 Relieved</option>
+            <option value="confident">💪 Confident</option>
+            <option value="hopeful">🌟 Hopeful</option>
+        </optgroup>
 
-                        <option value="happy">😊 Happy</option>
-                        <option value="sad">😢 Sad</option>
-                        <option value="angry">😠 Angry</option>
-                        <option value="anxious">😰 Anxious</option>
-                        <option value="calm">😌 Calm</option>
-                        <option value="excited">🤩 Excited</option>
-                        <option value="tired">😴 Tired</option>
-                        <option value="lonely">🥺 Lonely</option>
-                        <option value="confused">😕 Confused</option>
-                    </select>
+        <optgroup label="Difficult Emotions">
+            <option value="sad">😢 Sad</option>
+            <option value="angry">😠 Angry</option>
+            <option value="anxious">😰 Anxious</option>
+            <option value="lonely">🥺 Lonely</option>
+            <option value="disappointed">😞 Disappointed</option>
+            <option value="frustrated">😣 Frustrated</option>
+            <option value="guilty">😔 Guilty</option>
+            <option value="embarrassed">😳 Embarrassed</option>
+            <option value="scared">😨 Scared</option>
+            <option value="overwhelmed">😵 Overwhelmed</option>
+        </optgroup>
 
-                    <span class="select-arrow">⌄</span>
-                </div>
+        <optgroup label="Other Emotions">
+            <option value="calm">😌 Calm</option>
+            <option value="tired">😴 Tired</option>
+            <option value="confused">😕 Confused</option>
+            <option value="bored">😐 Bored</option>
+        </optgroup>
+
+    </select>
+</div>
+
             </div>
 
             <button id="continueBtn"
@@ -78,6 +94,17 @@
                class="message"
                role="status"
                aria-live="polite"></p>
+
+
+            <div id="reasonForm" hidden>
+
+                <label for="reason">
+                WHY DO YOU FEEL THIS WAY?
+                </label>
+
+                <textarea id="reason"placeholder="Write about your feelings..."rows="4"></textarea>
+
+            </div>
 
             <div class="card-footer">
                 <span>✧</span>
