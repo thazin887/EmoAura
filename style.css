@@ -15,6 +15,46 @@ body {
     overflow-x: hidden;
 }
 
+
+/* ===== Reason Form ===== */
+
+#reasonForm {
+    margin-top: 25px;
+}
+
+#reasonForm label {
+    display: block;
+    margin-bottom: 12px;
+
+    color: #d9d6f4;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#reason {
+    width: 100%;
+    height: 130px;
+
+    padding: 18px 20px;
+
+    /* Cursor Position */
+    text-align: left;
+    direction: ltr;
+
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(221, 217, 255, 0.35);
+    border-radius: 16px;
+
+    color: #ffffff;
+    font-size: 15px;
+    font-family: inherit;
+    line-height: 1.6;
+
+    outline: none;
+    resize: none;
+}
+
+
 /* ===== Animated Background ===== */
 
 body::before {
@@ -67,6 +107,7 @@ body::after {
 }
 
 /* ===== Glass Card ===== */
+
 
 .mood-card {
     width: 480px;
@@ -123,14 +164,14 @@ body::after {
     gap: 10px;
 
     color: #e1d6ff;
-    font-size: 13px;
+    font-size: 26px;
     font-weight: 700;
     letter-spacing: 4px;
 }
 
 .brand-icon {
     font-size: 24px;
-    color: #d8c5ff;
+    color: #f3d078;
 }
 
 /* ===== Welcome Section ===== */
@@ -139,12 +180,7 @@ body::after {
     margin-top: 45px;
 }
 
-.eyebrow {
-    font-size: 10px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    color: #b7b9db;
-}
+
 
 h1 {
     font-size: clamp(30px, 3vw, 42px);
@@ -155,7 +191,7 @@ h1 {
     margin: 18px 0 18px;
 }
 
-.gradient-text {
+.text-color {
     background: linear-gradient(
         100deg,
         #f0dcff,
@@ -168,6 +204,7 @@ h1 {
 }
 
 .subtitle {
+    margin-top: 40px;
     font-size: 15px;
     line-height: 1.8;
     color: #d1d5e9;
@@ -211,6 +248,7 @@ h1 {
     transition: 0.3s ease;
 }
 
+
 .emotion-select:hover {
     background: rgba(255, 255, 255, 0.16);
     border-color: #c8baff;
@@ -223,11 +261,16 @@ h1 {
         0 0 0 3px rgba(190, 172, 255, 0.20);
 }
 
-.emotion-select option {
+.emotion-select optgroup {
     background: #263354;
     color: #ffffff;
 }
 
+.emotion-select output{
+    background:  #263354;
+    color: #c8baff;
+    font-weight: bold;
+}
 .select-arrow {
     position: absolute;
     right: 20px;
